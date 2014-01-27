@@ -1,9 +1,73 @@
+body {
+	background-image: url('../images/bg.jpg');
+}
+body .ui-mobile .type-home .ui-content { 
+    background: white url(images/bg.jpg);
+}
+body .ui-mobile-viewport {
+	background-image: url(images/bg.jpg);
+}
+.ui-page { 
+
+background: url('../images/bg2.jpg') no-repeat center fixed;
+
+}
 .Won {
     background-color:green;
+    opacity:0.6;
+    border: 2px solid black;
+    vertical-align: middle;
+
+
 }
 .Lost {
     background-color:red;
+    opacity:0.6;
+    border: 2px solid black;
+    vertical-align: middle;
 }
 .TBP {
     background-color:blue;
+    opacity:0.6;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+li a p{
+	vertical-align: middle;
+}
+ul {
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+#aici3 li,#aici2 li,#aici li {
+	margin-bottom: 5px;
+	min-height: 50px;
+	border-radius: 5px;
+
+	
+}
+#footnav li{
+	min-height: 60px;
+	
+}
+#footnav li a{
+	min-height: 60px;
+	
+}
+
+.header{
+	min-height: 60px;
+	opacity:0.6;
+	vertical-align: middle;
+}
+body {
+	background-image: url(../images/bg.jpg);
+}
+#myfooter{
+	opacity: 0.6;
+}
+#myheader{
+	vertical-align: middle;
 }
