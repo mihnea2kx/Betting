@@ -5,7 +5,7 @@
     version   = "1.0.0">
 
 <icon src="images/icon.png"    gap:platform="ios" width="114" height="114" />
-<gap:splash gap:platform="ios" height="960" src="images/splashp.jpg" width="640" />
+<gap:splash gap:platform="ios" height="960" src="images/splash.jpg" width="640" />
 
 <preference name="orienation" value="portrait" />
 <name>Beting Tipzzz</name>
