@@ -7,7 +7,7 @@
 <icon src="images/icon-ip.png"    gap:platform="ios" width="114" height="114" />
 <gap:splash gap:platform="ios" height="960" src="images/splashp.png" width="640" />
 
-
+<preference name="orienation" value="portrait" />
 <name>Beting Tipzzz</name>
 
 <description>
@@ -17,7 +17,7 @@ Premium Tips
 <author href="http://www.digitype.ro" email="office@digitype.ro">
 Digitype Web Agency
 </author>
-<preference name="orienation" value="portrait" />
+
 <gap:platform name="ios" />
 <gap:platform name="android" />
 

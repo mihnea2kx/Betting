@@ -1,6 +1,6 @@
 @font-face{
 	font-family: arimo;
-	src:url(fonts/Arimo-Regular.ttf);
+	src:url(fonts/Arimo-Regular.ttf) format('truetype');
 }
 body {
 	background-image: url('../images/bg.jpg');
@@ -85,4 +85,17 @@ body {
 }
 p{
 	font-family: arimo;
+}
+table{
+	width:100%;
+}
+table .col1{
+	width: 15%;
+}
+table .col2{
+	width: 30%;
+}
+.ui-content{
+	text-align: center;
+	vertical-align: middle;
 }

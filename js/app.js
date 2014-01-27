@@ -20,9 +20,18 @@ $(document).ready(function(){
 
         $(data.emp_info).each(function () {
             if(this.Rezultat != 'TBP'){
-            var output = "<li><p>" + this.Echipa1 + " vs " + this.Echipa2 + "---" + this.Tip + "----->" + this.Rezultat + "</p></li>";
+            var output = "<li><p>" + this.Data +"--"+ this.Echipa1 + " vs " + this.Echipa2 + "--" + this.Tip + "</p></li>";
                 $('#aici3').prepend(output);
                 $("#aici3 li:first-child").addClass(this.Rezultat);
+            }
+        });
+
+        $(data.emp_info).each(function () {
+            if(this.Rezultat != 'TBP'){
+                var output = "<tr><td>"+this.Data+ "</td><td>"+this.Echipa1+  "</td><td>"+this.Echipa2+ "</td><td>" +this.Tip+ "</td></tr>"
+                $('#aici4').prepend(output);
+                $("#aici4 tr:first-child").addClass(this.Rezultat);
+                
             }
         });
 
