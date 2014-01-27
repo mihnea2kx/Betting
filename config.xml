@@ -17,7 +17,8 @@ Premium Tips
 <author href="http://www.digitype.ro" email="office@digitype.ro">
 Digitype Web Agency
 </author>
-
-
+<preference name="orienation" value="portrait" />
+<gap:platform name="ios" />
+<gap:platform name="android" />
 
 </widget>
