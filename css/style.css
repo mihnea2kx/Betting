@@ -42,6 +42,8 @@ li a p{
 #notrp,#notrp2,#notrp3{
 	overflow: hidden;
 	height: 80%;
+	position: relative;
+
 }
 ul {
 	padding:10px;
@@ -60,12 +62,6 @@ ul {
 }
 #footnav li{
 	height:10%;
-
-	
-}
-#footnav li a{
-	min-height: 60px;
-	
 }
 
 .header{
@@ -82,4 +78,11 @@ body {
 }
 #myheader{
 	vertical-align: middle;
+}
+.ui-header.ui-title{
+	font-family: arimo;
+	font-size: 25px
+}
+p{
+	font-family: arimo;
 }
