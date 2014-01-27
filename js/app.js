@@ -4,7 +4,7 @@ $(document).ready(function(){
     $.getJSON(betapi,function(data) {
         $(data.emp_info).each(function () {
             if(this.Rezultat=='TBP'&&this.Valoare == 'Free'){
-            var output = "<li><p>" + this.Ora +"---"+ this.Sport +"---"+ this.Echipa1 + " vs " + this.Echipa2 + "---" + this.Tip + "</p></li>";
+            var output = "<li><p>" + this.Ora.substring(0,5) +" --- "+ this.Sport +" --- "+ this.Echipa1 + " vs " + this.Echipa2 + " --- " + this.Tip + "</p></li>";
                 $('#aici').prepend(output);
                 $("#aici li:first-child").addClass(this.Rezultat);
             }
@@ -12,7 +12,7 @@ $(document).ready(function(){
 
         $(data.emp_info).each(function () {
             if(this.Rezultat=='TBP'&&this.Valoare == 'Premium'){
-            var output = "<li><p>" + this.Ora +"---"+ this.Sport +"---"+ this.Echipa1 + " vs " + this.Echipa2 + "---" + this.Tip + "</p></li>";
+            var output = "<li><p>" + this.Ora.substring(0,5) +" --- "+ this.Sport +" --- "+ this.Echipa1 + " vs " + this.Echipa2 + " --- " + this.Tip + "</p></li>";
                 $('#aici2').prepend(output);
                 $("#aici2 li:first-child").addClass(this.Rezultat);
             }
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
         $(data.emp_info).each(function () {
             if(this.Rezultat != 'TBP'){
-            var output = "<li><p>" + this.Data.substring(8,10)+"-"+this.Data.substring(5,7) +"--"+ this.Echipa1 + " vs " + this.Echipa2 + "--" + this.Tip + "</p></li>";
+            var output = "<li><p>" + this.Data.substring(8,10)+"."+this.Data.substring(5,7) +"--"+ this.Echipa1 + " vs " + this.Echipa2 + "--" + this.Tip + "</p></li>";
                 $('#aici3').prepend(output);
                 $("#aici3 li:first-child").addClass(this.Rezultat);
             }

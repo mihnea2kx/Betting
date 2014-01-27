@@ -18,17 +18,18 @@ background: url('../images/bg2.jpg') no-repeat center fixed;
 }
 .Won {
     background-color:green;
-    opacity:0.6;
+    opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
     box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
+	font-family: arimo;
 
 
 }
 .Lost {
     background-color:red;
-    opacity:0.6;
+    opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
     box-shadow: 2px 2px 3px grey;
@@ -36,7 +37,7 @@ background: url('../images/bg2.jpg') no-repeat center fixed;
 }
 .TBP {
     background-color:blue;
-    opacity:0.6;
+    opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
     box-shadow: 2px 2px 3px grey;
@@ -72,14 +73,14 @@ ul {
 
 .header{
 	height:10%;
-	opacity:0.6;
+	opacity:0.75;
 	vertical-align: middle;
 }
 body {
 	background-image: url(../images/bg.jpg);
 }
 #myfooter{
-	opacity: 0.6;
+	opacity: 0.75;
 	overflow:hidden;
 }
 #myheader{
@@ -98,6 +99,7 @@ table{
 	border:3px solid black;
 	box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
+	font-family: arimo;
 
 }
 table .col1{
@@ -112,4 +114,20 @@ table .col2{
 }
 h1{
 	vertical-align: middle;
+}
+td{
+	font-family: arimo;
+}
+#betbtn{
+	
+
+}
+#divbet a{
+	text-align: center;
+	text-decoration: none;
+
+}
+#divbet{
+		padding-left: 30%;
+		padding-right: 30%;
 }
