@@ -1,3 +1,7 @@
+@font-face{
+	font-family: arimo;
+	src:url(fonts/Arimo-Regular.ttf);
+}
 body {
 	background-image: url('../images/bg.jpg');
 }
@@ -35,10 +39,16 @@ background: url('../images/bg2.jpg') no-repeat center fixed;
 li a p{
 	vertical-align: middle;
 }
+#notrp,#notrp2,#notrp3{
+	overflow: hidden;
+	height: 80%;
+}
 ul {
+	padding:10px;
 	text-align: center;
 	text-decoration: none;
 	list-style-type: none;
+	overflow: hidden;
 
 }
 #aici3 li,#aici2 li,#aici li {
@@ -49,7 +59,8 @@ ul {
 	
 }
 #footnav li{
-	min-height: 60px;
+	height:10%;
+
 	
 }
 #footnav li a{
@@ -58,7 +69,7 @@ ul {
 }
 
 .header{
-	min-height: 60px;
+	height:10%;
 	opacity:0.6;
 	vertical-align: middle;
 }
@@ -67,6 +78,7 @@ body {
 }
 #myfooter{
 	opacity: 0.6;
+	overflow:hidden;
 }
 #myheader{
 	vertical-align: middle;
