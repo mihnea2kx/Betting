@@ -13,7 +13,7 @@ body .ui-mobile-viewport {
 }
 .ui-page { 
 
-background: url('../images/bg2.jpg') no-repeat center fixed;
+background: url('../images/bg4.jpg') no-repeat center fixed;
 
 }
 .Won {
@@ -96,10 +96,11 @@ p{
 table{
 	width:100%;
 	border-radius: 5px;
-	border:3px solid black;
+	border:2px solid black;
 	box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
 	font-family: arimo;
+	background-color: #4D4D4D;
 
 }
 table .col1{
