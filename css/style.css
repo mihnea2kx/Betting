@@ -131,3 +131,6 @@ td{
 		padding-left: 30%;
 		padding-right: 30%;
 }
+#notrp2 table td {
+	border: 1px solid black;
+}
