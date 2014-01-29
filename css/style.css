@@ -76,7 +76,7 @@ ul {
 }
 
 .header{
-	height:10%;
+	height:59px;
 	
 	vertical-align: middle;
 
@@ -84,7 +84,7 @@ ul {
 
 #myheader{
 	vertical-align: middle;
-		background-color: #3e6d7b;
+		background-color: #19ac5b;
 		font-size: 120%;
 
 }
