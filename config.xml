@@ -8,6 +8,7 @@
 <gap:splash gap:platform="ios" height="960" src="images/splash.png" width="640" />
 
 <preference name="orienation" value="portrait" />
+<preference name="webviewbounce" value="false" />
 <name>Beting Tipzzz</name>
 
 <description>
@@ -20,5 +21,6 @@ Digitype Web Agency
 
 <gap:platform name="ios" />
 <gap:platform name="android" />
+<preference name="webviewbounce" value="false" />
 
 </widget>
