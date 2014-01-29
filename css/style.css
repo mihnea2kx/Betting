@@ -2,8 +2,12 @@
 	font-family: arimo;
 	src:url(fonts/Arimo-Regular.ttf) format('truetype');
 }
+@font-face{
+	font-family: lato;
+	src:url(fonts/lato/Lato-Reg.ttf) format('truetype');
+}
 body {
-	background-image: url('../images/bg.jpg');
+	background-image: url('../images/bgrep.jpg');
 }
 body .ui-mobile .type-home .ui-content { 
     background: white url(images/bg.jpg);
@@ -13,22 +17,22 @@ body .ui-mobile-viewport {
 }
 .ui-page { 
 
-background: url('../images/bg4.jpg') no-repeat center fixed;
+background: url('../images/bgrep.jpg');
 
 }
 .Won {
-    background-color:green;
+    background-color:#74cf1e;
     opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
     box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
-	font-family: arimo;
+	font-family: lato;
 
 
 }
 .Lost {
-    background-color:red;
+    background-color:#d53251;
     opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
@@ -36,7 +40,7 @@ background: url('../images/bg4.jpg') no-repeat center fixed;
 	box-shadow: 1px 1px 1px grey inset;
 }
 .TBP {
-    background-color:blue;
+    background-color:#3cc8e7;
     opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
@@ -49,7 +53,7 @@ li a p{
 #notrp,#notrp2,#notrp3{
 	overflow: hidden;
 	height: 80%;
-	position: relative;
+	
 
 }
 ul {
@@ -69,29 +73,41 @@ ul {
 }
 #footnav li{
 	height:10%;
+	background-color: red;
 }
 
 .header{
 	height:10%;
 	opacity:0.75;
 	vertical-align: middle;
+
 }
 body {
 	background-image: url(../images/bg.jpg);
 }
 #myfooter{
+	background-color: red;
 	opacity: 0.75;
-	overflow:hidden;
+	
 }
 #myheader{
 	vertical-align: middle;
+		background-color: #3e6d7b;
+		font-size: 120%;
+
+}
+h1{
+	font-family: lato;
+	color: #d7dee0;
 }
 .ui-header.ui-title{
-	font-family: arimo;
-	font-size: 25px
+	font-family: lato;
+	font-size: 120%;
+	color: #d7dee0;
 }
 p{
-	font-family: arimo;
+	font-family: lato;
+	color: #d7dee0;
 }
 table{
 	width:100%;
@@ -99,8 +115,9 @@ table{
 	border:2px solid black;
 	box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
-	font-family: arimo;
-	background-color: #4D4D4D;
+	font-family: lato;
+	color: #d7dee0;
+	background-color: #275c6b;
 
 }
 table .col1{
@@ -117,21 +134,48 @@ h1{
 	vertical-align: middle;
 }
 td{
-	font-family: arimo;
+	font-family: lato;
 }
 #betbtn{
+	background-color: #19ac5b;
+	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
+	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
+	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
+	font-family: lato;
+	font-size: 110%;
+	color: #d7dee0;
 	
 
 }
 #divbet a{
 	text-align: center;
 	text-decoration: none;
+	color: #d7dee0;
 
 }
 #divbet{
 		padding-left: 30%;
 		padding-right: 30%;
+		color: #d7dee0;
 }
 #notrp2 table td {
 	border: 1px solid black;
+}
+.ui-footer .ui-navbar .ui-btn , .ui-page-theme-b .ui-btn,.ui-page-theme-b,.ui-page-theme-b .ui-bar-inherit{
+	background-color: #3e6d7b;
+	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
+	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
+	box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
+	font-family: lato;
+	font-size: 110%;
+	color: #d7dee0;
+}
+.ui-footer .ui-navbar .ui-btn-active {
+	background-color: #19ac5b;
+	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
+	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
+	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
+	font-family: lato;
+	font-size: 110%;
+	color: #d7dee0;
 }
