@@ -73,7 +73,6 @@ ul {
 }
 #footnav li{
 	height:10%;
-	background-color: red;
 }
 
 .header{
@@ -82,14 +81,7 @@ ul {
 	vertical-align: middle;
 
 }
-body {
-	background-image: url(../images/bg.jpg);
-}
-#myfooter{
-	background-color: red;
-	
-	
-}
+
 #myheader{
 	vertical-align: middle;
 		background-color: #3e6d7b;
@@ -158,7 +150,7 @@ td{
 		padding-right: 30%;
 		color: #d7dee0;
 }
-#notrp2 table td {
+#notrp2 table td , #notrp table td{
 	border: 1px solid black;
 }
 .ui-footer .ui-navbar .ui-btn , .ui-page-theme-b .ui-btn,.ui-page-theme-b,.ui-page-theme-b .ui-bar-inherit{
@@ -167,7 +159,7 @@ td{
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	font-family: lato;
-	font-size: 100%;
+
 	color: #d7dee0;
 }
 .ui-footer .ui-navbar .ui-btn-active {
@@ -176,6 +168,6 @@ td{
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	font-family: lato;
-	font-size: 100%;
+
 	color: #d7dee0;
 }
