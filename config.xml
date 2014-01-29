@@ -21,6 +21,6 @@ Digitype Web Agency
 <gap:platform name="android" />
 <preference name="DisallowOverscroll" value="true" />
 <preference name="webviewbounce" value="false" />
-<preference name="orientation" value="landscape" />
+<preference name="orientation" value="portrait" />
 
 </widget>
