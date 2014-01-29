@@ -9,6 +9,7 @@
 
 <preference name="orienation" value="portrait" />
 <preference name="webviewbounce" value="false" />
+<preference name="DisallowOverscroll" value="true" />
 <name>Beting Tipzzz</name>
 
 <description>
@@ -22,5 +23,6 @@ Digitype Web Agency
 <gap:platform name="ios" />
 <gap:platform name="android" />
 <preference name="webviewbounce" value="false" />
+<preference name="DisallowOverscroll" value="true" />
 
 </widget>
