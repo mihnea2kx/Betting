@@ -1,16 +1,4 @@
-@font-face{
-	font-family: arimo;
-	src:url(fonts/Arimo-Regular.ttf) format('truetype');
-}
-@font-face{
-	font-family: lato;
-	src:url(fonts/lato/Lato-Reg.ttf) format('truetype');
 
-}
-@font-face{
-	font-family: latolight;
-	src:url(fonts/lato/Lato-Lig.ttf) format('truetype');
-}
 body {
 	background-image: url('../images/bgrep.jpg');
 }
@@ -132,6 +120,7 @@ h1{
 }
 td{
 	font-family: latolight;
+	font-size: 90%;
 }
 #betbtn{
 	background-color: #19ac5b;
