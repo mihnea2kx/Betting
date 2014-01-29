@@ -1,4 +1,14 @@
 $(document).ready(function(){
+    function onDeviceReady() {
+    if (parseFloat(window.device.version) === 7.0) {
+          document.body.style.marginTop = "20px";
+    }
+}
+  
+document.addEventListener('deviceready', onDeviceReady, false);
+
+
+
     var betapi = "http://www.scripthold.com/betjoomla/connect.php";
     
     $.getJSON(betapi,function(data) {
