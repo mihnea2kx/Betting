@@ -5,6 +5,11 @@
 @font-face{
 	font-family: lato;
 	src:url(fonts/lato/Lato-Reg.ttf) format('truetype');
+
+}
+@font-face{
+	font-family: latolight;
+	src:url(fonts/lato/Lato-Lig.ttf) format('truetype');
 }
 body {
 	background-image: url('../images/bgrep.jpg');
@@ -89,16 +94,16 @@ ul {
 
 }
 h1{
-	font-family: lato;
+	font-family: latolight;
 	color: #d7dee0;
 }
 .ui-header.ui-title{
-	font-family: lato;
+	font-family: latolight;
 	font-size: 120%;
 	color: #d7dee0;
 }
 p{
-	font-family: lato;
+	font-family: latolight;
 	color: #d7dee0;
 }
 table{
@@ -126,14 +131,14 @@ h1{
 	vertical-align: middle;
 }
 td{
-	font-family: lato;
+	font-family: latolight;
 }
 #betbtn{
 	background-color: #19ac5b;
 	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
-	font-family: lato;
+	font-family: latolight;
 	font-size: 110%;
 	color: #d7dee0;
 	
@@ -158,7 +163,7 @@ td{
 	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
-	font-family: lato;
+	font-family: latolight;
 
 	color: #d7dee0;
 }
@@ -167,7 +172,7 @@ td{
 	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
-	font-family: lato;
+	font-family: latolight;
 
 	color: #d7dee0;
 }

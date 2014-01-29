@@ -1,0 +1,13 @@
+@font-face{
+	font-family: 'arimo';
+	src:url(../webfonts/Arimo-Regular.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'lato';
+	src:url(../webfonts/Lato-Reg.ttf) format('truetype');
+
+}
+@font-face{
+	font-family: 'latolight';
+	src:url(../webfonts/Lato-Lig.ttf) format('truetype');
+}
