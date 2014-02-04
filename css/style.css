@@ -60,12 +60,15 @@ ul {
 #aici3 li,#aici2 li,#aici li {
 	margin-bottom: 5px;
 	min-height: 50px;
-	border-radius: 5px;
 
 	
 }
+#myfooter{
+	border: none;
+}
 #footnav li{
 	height:10%;
+	border: none;
 }
 
 .header{
@@ -97,7 +100,6 @@ p{
 }
 table{
 	width:100%;
-	border-radius: 5px;
 	border:1px solid #AAD5DB;
 	box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
@@ -132,7 +134,7 @@ td{
 	font-size: 110%;
 	color: #AAD5DB;
 	border: none;
-	
+	border-radius: 0px;
 
 }
 #divbet a{
