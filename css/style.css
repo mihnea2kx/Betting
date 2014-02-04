@@ -10,11 +10,11 @@ body .ui-mobile-viewport {
 }
 .ui-page { 
 
-background: url('../images/bgrep.jpg');
+background-color: #045274;
 
 }
 .Won {
-    background-color:#74cf1e;
+    background-color:#19ac5b;
     opacity:0.75;
     border: 2px solid black;
     vertical-align: middle;
@@ -77,8 +77,9 @@ ul {
 
 #myheader{
 	vertical-align: middle;
-		background-color: #19ac5b;
+		background-color: #31ADC2;
 		font-size: 120%;
+		border: none;
 
 }
 h1{
@@ -97,12 +98,12 @@ p{
 table{
 	width:100%;
 	border-radius: 5px;
-	border:2px solid black;
+	border:1px solid #AAD5DB;
 	box-shadow: 2px 2px 3px grey;
 	box-shadow: 1px 1px 1px grey inset;
 	font-family: lato;
 	color: #d7dee0;
-	background-color: #275c6b;
+	
 
 }
 table .col1{
@@ -123,13 +124,14 @@ td{
 	font-size: 90%;
 }
 #betbtn{
-	background-color: #eb723c;
+	background-color: #0586A6;
 	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	font-family: latolight;
 	font-size: 110%;
-	color: #d7dee0;
+	color: #AAD5DB;
+	border: none;
 	
 
 }
@@ -145,23 +147,25 @@ td{
 		color: #d7dee0;
 }
 #notrp2 table td , #notrp table td{
-	border: 1px solid black;
+	border: 1px solid #AAD5DB;
 }
 .ui-footer .ui-navbar .ui-btn , .ui-page-theme-b .ui-btn,.ui-page-theme-b,.ui-page-theme-b .ui-bar-inherit{
-	background-color: #3e6d7b;
+	background-color: #31ADC2;
 	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.06);
 	font-family: latolight;
+	border: none;
 
 	color: #d7dee0;
 }
 .ui-footer .ui-navbar .ui-btn-active {
-	background-color: #19ac5b;
+	background-color: #0586A6;
 	-webkit-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	-moz-box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	font-family: latolight;
+	border: none;
 
 	color: #d7dee0;
 }
