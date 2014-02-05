@@ -103,6 +103,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 h1{
 	font-family: latolight;
 	color: #d7dee0;
+		text-shadow:0 0 0;
+
 }
 .ui-header.ui-title{
 	font-family: latolight;
@@ -112,6 +114,7 @@ h1{
 p{
 	font-family: latolight;
 	color: #d7dee0;
+	text-shadow:0 0 0;
 }
 table{
 	width:100%;
@@ -120,6 +123,8 @@ table{
 	box-shadow: 1px 1px 1px grey inset;
 	font-family: lato;
 	color: #d7dee0;
+		text-shadow:0 0 0;
+
 	
 
 }
@@ -136,9 +141,11 @@ table .col2{
 h1{
 	vertical-align: middle;
 }
-td{
+td {
 	font-family: latolight;
 	font-size: 90%;
+		text-shadow:0 0 0;
+
 }
 #betbtn{
 	background-color: #0586A6;
@@ -216,6 +223,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	box-shadow: inset 0 0 0 1px rgba(245,245,245,.2);
 	font-family: latolight;
 	border: none;
-
-	color: #d7dee0;
+	color: #77d42a;
 }
